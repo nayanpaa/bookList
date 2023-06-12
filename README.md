@@ -1,20 +1,8 @@
 Flow
 
-    App 
-    /\
-   /  \
-  /    \
-book    book
-create  list
-          /\
-         /  \
-        /    \
-      book    book
-      show    show
-        |       |
-        |       |
-      book     book
-      edit     edit
+    App
+        --> BookCreate
+        --> BookList --> BookShow --> BookEdit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
